@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: lighter !important;
+  font-size: 50px;
+}
+
+h3 {
+  color: green;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: lighter !important;
+}
+
+label {
+  font-size: 30px !important;
+  margin-right: 20px;
+}
+
+.one{
+    margin-top: 30px;
+}
+
+.date{
+    width: 420px;
+}
+
+.amount{
+    width: 420px;
+}
+
+.amount-label{
+    margin-left: 32px;
+}
+
+.button-one{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.expense-table{
+    margin-top: 50px;
+}
+
+.alertOne{
+  margin-top: -20px;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Expense Tracker App</title>
+  </head>
+  <body>
+    <div>
+      <div>
+        <h1>Expense Tracker</h1>
+        <h3>Add a New Item:</h3>
+      </div>
+
+      <!--INPUT ONE START-->
+      <div class="container one">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend"></div>
+          <label>Name:</label>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Where was the Expense Made?"
+            aria-label="Default"
+            aria-describedby="inputGroup-sizing-default"
+            id="name"
+          />
+        </div>
+        <div>
+          <span
+            ><label>Date:</label> <input type="date" class="date" id="date"
+          /></span>
+          <span
+            ><label class="amount-label">Amount:</label>
+            <input type="number" class="amount" id="amount"
+          /></span>
+        </div>
+      </div>
+      <!--INPUT ONE END-->
+
+      <!--BUTTON START-->
+      <div class="container button-one">
+        <button
+          type="button"
+          class="btn btn-success btn-lg"
+          onclick="addExpense()"
+        >
+          Add Expense
+        </button>
+      </div>
+      <!--BUTTON END-->
+
+      <!-- TABLE START -->
+      <div class="container expense-table">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col">Date</th>
+              <th scope="col">Amount</th>
+            </tr>
+          </thead>
+          <tbody id="table"></tbody>
+        </table>
+        <div class="alert alert-success container alertOne" role="alert" id="yet">
+          No expenes added yet!
+        </div>
+      </div>
+      <!-- TABLE END -->
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
