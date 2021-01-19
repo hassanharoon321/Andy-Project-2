@@ -22,33 +22,41 @@ label {
   margin-right: 20px;
 }
 
-.one{
-    margin-top: 30px;
+.one {
+  margin-top: 30px;
 }
 
-.date{
-    width: 420px;
+.date {
+  width: 420px;
 }
 
-.amount{
-    width: 420px;
+.amount {
+  width: 420px;
 }
 
-.amount-label{
-    margin-left: 32px;
+.amount-label {
+  margin-left: 32px;
 }
 
-.button-one{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-top: 20px;
+.button-one {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
 }
 
-.expense-table{
-    margin-top: 50px;
+.expense-table {
+  margin-top: 50px;
 }
 
-.alertOne{
+.alertOne {
   margin-top: -20px;
+}
+
+.left-btn{
+ margin-left:20px 
+}
+
+.hello{
+  margin-right: -100px
 }
